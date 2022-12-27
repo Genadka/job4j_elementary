@@ -6,7 +6,7 @@ import org.junit.Test;
 public class SqAreaTest {
 
     @Test
-    public void whenP35Dot5K4Square51Dot41() {
+    public void whenP35Dot5K4Square50Dot41() {
         double expected = 50.41;
         double p = 35.5;
         double k = 4;
