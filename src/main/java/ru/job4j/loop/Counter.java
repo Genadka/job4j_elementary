@@ -14,7 +14,7 @@ public class Counter {
         int sumByEven = 0;
         for (int i = start; i <= finish; i++) {
             if (i % 2 == 0) {
-                sumByEven = sumByEven + i;
+                sumByEven += i;
             }
         }
         return sumByEven;
