@@ -19,6 +19,6 @@ public class Board {
         System.out.println();
         paint(4, 4);
         System.out.println();
-        paint(8, 8);
+        paint(12, 12);
     }
 }
