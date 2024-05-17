@@ -10,7 +10,6 @@ public class ArrayLoop {
         }
         for (int num : equation) {
             System.out.println(num);
-            break;
         }
     }
 }
