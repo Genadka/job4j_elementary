@@ -6,9 +6,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 class CheckTest {
     @Test
     void whenDataMonoByTrueThenTrue() {
-        boolean[] data = new boolean[] {true, true, true, true, true, true, true, true};
+        boolean[] data = new boolean[] {true, true, true, false, true, true, true, true};
         boolean result = Check.mono(data);
-        assertThat(result).isTrue();
+        assertThat(result).isFalse();
     }
 
     @Test

@@ -3,8 +3,8 @@ package ru.job4j.array;
 public class Check {
     public static boolean mono(boolean[] data) {
         boolean result = true;
-        for (boolean datum : data) {
-            if (datum != data[data.length - 1]) {
+        for (boolean i : data) {
+            if (i != data[data.length - 1]) {
                 result = false;
                 break;
             }
