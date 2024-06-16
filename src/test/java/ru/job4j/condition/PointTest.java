@@ -28,10 +28,6 @@ public class PointTest {
         double expected = 15.23;
         Point a = new Point(2, 1);
         Point b = new Point(8, 15);
-        int x1 = 2;
-        int y1 = 1;
-        int x2 = 8;
-        int y2 = 15;
         double distance = a.distance(b);
         Assert.assertEquals(expected, distance, 0.01);
     }

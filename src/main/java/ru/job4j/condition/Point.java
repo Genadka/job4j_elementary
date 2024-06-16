@@ -19,7 +19,7 @@ public class Point {
 
     public static void main(String[] args) {
         Point a = new Point(0, 0);
-        Point b = new Point(0, 2);
+        Point b = new Point(0, 3);
         double distance = a.distance(b);
         System.out.println(distance);
     }
