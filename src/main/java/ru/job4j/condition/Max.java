@@ -13,7 +13,6 @@ public class Max {
         return max(max(max(left, right), third), fourth);
     }
 
-
     public static void main(String[] args) {
         int res = Max.max(33, 22);
         System.out.println(res);
